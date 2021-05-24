@@ -44,7 +44,7 @@ int main() {
     for(int i=0; i<2; i++)
     {
         cout << "Enter a radius of the pizza:"; //remember to use '.' as a separator in the double type numbers.
-        cin >> input1; // why it doesn't wait until i write the input??????
+        cin >> input1; 
         cout << "Enter a price of the pizza:";
         cin >> input2;
         Pizza p_i(input1, input2); // creating or overwriting object p_i
